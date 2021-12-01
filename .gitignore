@@ -1,0 +1,42 @@
+devel/
+logs/
+build/
+bin/
+lib/
+.catkin_tools
+/venv
+.rosinstall
+.rosinstall.bak
+
+
+src/course_packages/*
+src/course_packages/dd2419_launch/*
+!src/course_packages/dd2419_launch/
+!src/course_packages/dd2419_launch/worlds/
+!src/course_packages/dd2419_launch/launch/
+
+src/course_packages/dd2419_resources/*
+!src/course_packages/dd2419_resources/
+!src/course_packages/dd2419_resources/worlds_json/
+
+
+*.bag
+*.pyc
+*.diff
+
+# ROS bag files to include
+!test.bag
+
+# Specific files to ignore
+cropped.zip
+
+
+# Common code editors 
+*.idea/
+src/.rosinstall.bak
+src/.rosinstall
+*.vscode/
+src/perception/scripts/dd2419_traffic_sign_pdfs/G6_00132_cropped.jpg
+src/perception/scripts/dd2419_traffic_sign_pdfs/G6_00132.jpg
+src/perception/scripts/feature_detection_ellidi.py
+src/perception/scripts/detection_playground.py
